@@ -73,6 +73,22 @@ const PLANTS = [
     guardianName: null,
   },
 
+  {
+    id: "andiroba",
+    name: "Andiroba",
+    scientific: "Carapa guianensis",
+    family: "Meliaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-andiroba.jpg",
+    description: "A andiroba (Carapa guianensis) é uma árvore de grande porte nativa da região amazônica, famosa pela produção de um óleo amargo com propriedades terapêuticas. O uso mais conhecido da andiroba é o do seu óleo, amplamente utilizado pela medicina popular e pela indústria cosmética devido às suas propriedades anti-inflamatórias, antissépticas e cicatrizantes.",
+    status: "Ficha em revisão",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: null,
+  },
+
+
 ];
 
 /* ==============================================================
