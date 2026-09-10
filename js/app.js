@@ -26,7 +26,7 @@ const PLANTS = [
     status: "Ficha em revisão",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: null,
   },
   {
@@ -57,21 +57,6 @@ const PLANTS = [
     audioSrc: null,
     guardianName: null,
   },
-  {
-    id: "boldo",
-    name: "Boldo-Brasileiro",
-    scientific: "Coleus barbatus",
-    family: "Lamiaceae",
-    category: "Aromáticas",
-    image: "assets/guardias-boldo.jpg",
-    description: "O boldo brasileiro (Plectranthus barbatus) é um arbusto de 1 a 2 metros com folhas grandes, verde-claras e aveludadas. Ele exala um cheiro forte e canforado, possui um sabor muito amargo e produz pequenas flores azul-arroxeadas.",
-    status: "Ficha em revisão",
-    statusTone: "warm",
-    uses: "Proteção e cuidado — relato cultural",
-    audioSrc: null,
-    guardianName: null,
-  },
-
 ];
 
 /* ==============================================================
@@ -234,6 +219,36 @@ function openQr() {
   document.body.style.overflow = "hidden";
 }
 
+/* ==============================================================
+   4. ABERTURA A PARTIR DE QR CODE
+   Cada QR aponta para: index.html#planta-id-da-planta
+   Exemplo: index.html#planta-arruda
+
+   Esta função lê esse endereço quando a página abre e mostra a ficha
+   correta automaticamente. Não altere o texto "planta-"; altere apenas
+   o campo id de cada planta na lista PLANTS, no início deste arquivo.
+================================================================ */
+function openPlantFromUrl() {
+  const match = decodeURIComponent(window.location.hash).match(/^#planta-([a-z0-9-]+)$/i);
+  if (!match) return;
+
+  const plantId = match[1];
+  const plantExists = PLANTS.some((plant) => plant.id === plantId);
+  if (!plantExists) return;
+
+  // Garante que a ficha apareça mesmo se a pessoa tiver usado filtros antes.
+  state.category = "Todas";
+  state.search = "";
+  const search = byId("plant-search");
+  if (search) search.value = "";
+  renderCategories();
+  renderPlants();
+
+  // Rolagem e modal são separados para a página terminar de renderizar primeiro.
+  byId("catalogo")?.scrollIntoView({ behavior: "auto", block: "start" });
+  window.setTimeout(() => openPlant(plantId), 120);
+}
+
 function renderProfiles() {
   const root = byId("profile-grid");
   if (!root) return;
@@ -282,4 +297,8 @@ document.addEventListener("DOMContentLoaded", () => {
   renderProfiles();
   renderTimeline();
   enableHomeInteractions();
+  openPlantFromUrl();
+
+  // Permite testar outro QR Code sem recarregar a página inteira.
+  window.addEventListener("hashchange", openPlantFromUrl);
 });
