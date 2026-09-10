@@ -57,6 +57,22 @@ const PLANTS = [
     audioSrc: null,
     guardianName: null,
   },
+
+  {
+    id: "boldo",
+    name: "Boldo-Brasileiro",
+    scientific: "Ruta graveolens",
+    family: "Lamiaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-boldo.jpg",
+    description: "O boldo-brasileiro é um arbusto perene, de crescimento rápido, que se destaca por suas características morfológicas bem marcantes.",
+    status: "Ficha em revisão",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: null,
+  },
+
 ];
 
 /* ==============================================================
