@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Guardiãs dos Saberes — catálogo digital de plantas e memórias de Bacabeira." />
+    <title>Guardiãs dos Saberes · Bacabeira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#catalogo">Ir para o catálogo</a>
+
+    <!-- ==========================================================
+      CABEÇALHO: altere os nomes dos links de navegação nesta área.
+      Para criar nova página, crie um arquivo .html e inclua o link.
+    =========================================================== -->
+    <header class="site-header">
+      <div class="top-note"><span></span>Um arquivo vivo de Bacabeira, Maranhão<span></span></div>
+      <nav class="nav-shell" aria-label="Navegação principal">
+        <a class="brand" href="index.html" aria-label="Voltar ao início">
+          <img src="assets/guardias-mark.png" alt="" />
+          <span><strong>Guardiãs</strong><em>dos Saberes</em></span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+        <div class="main-nav">
+          <a href="#catalogo">Catálogo <b id="plant-count-nav">03</b></a>
+          <a href="guardias.html">As guardiãs</a>
+          <a href="#metodo">Como nasce</a>
+          <a href="#sobre">O projeto</a>
+        </div>
+        <a class="nav-cta" href="guardias.html#perfis">Compartilhar um saber <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO: troque a imagem assets/guardias-hero.jpg para alterar a foto de capa. -->
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow-light"><i></i> Enciclopédia viva · Bacabeira, MA</p>
+          <h1>Toda planta<br /><em>guarda</em> mais de<br />um nome.</h1>
+          <p class="hero-text">Um catálogo digital para escutar as mulheres que conhecem a terra, reconhecer a ciência das plantas e manter viva a memória de um território.</p>
+          <a class="hero-link" href="#catalogo">Explorar o catálogo <span>↓</span></a>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/guardias-hero.jpg" alt="Mulher segurando uma folha em um quintal" />
+          <div class="hero-photo-shade"></div>
+          <span class="hero-leaf">⌁</span>
+          <div class="hero-caption"><b>01</b><span>Escuta como<br />primeiro gesto</span></div>
+          <div class="hero-stat"><small>Em destaque</small><strong><b id="plant-count-hero">03</b> plantas<br />catalogadas</strong><span>+ relatos em construção ↗</span></div>
+        </div>
+      </section>
+
+      <section class="intro-section" id="sobre">
+        <div class="intro-seal">✧<br /><span>ODS<br />05 · 15</span></div>
+        <div><p class="eyebrow"><i></i> O que estamos guardando</p><h2>Conhecimento também é território.</h2></div>
+        <div class="intro-copy"><p>Mulheres quilombolas, benzedeiras e quebradeiras de coco mantêm uma biblioteca viva em seus quintais, gestos e palavras. Aqui, cada ficha nasce de uma escuta e de uma conversa entre saber tradicional e investigação botânica.</p><a href="#metodo" class="text-link">Conhecer o processo <span>↗</span></a></div>
+      </section>
+
+      <!-- ==========================================================
+        CATÁLOGO DE PLANTAS
+        Os cartões são criados automaticamente a partir do array PLANTS
+        no arquivo js/app.js. Para adicionar uma planta, não escreva um
+        cartão aqui: copie um objeto no array PLANTS.
+      =========================================================== -->
+      <section class="catalog-section" id="catalogo">
+        <div class="section-head"><div><p class="eyebrow"><i></i> Caderno de campo digital</p><h2>O catálogo<br /><em>começa</em> aqui.</h2></div><p class="section-aside"><b id="plant-count-title">03</b> entradas<br />em destaque</p></div>
+        <div class="catalog-toolbar">
+          <label class="search-box"><span>⌕</span><input id="plant-search" type="search" placeholder="Buscar por nome popular ou científico" aria-label="Buscar no catálogo" /><button id="clear-search" type="button" aria-label="Limpar busca">×</button></label>
+          <div class="filter-tabs" id="category-tabs" aria-label="Filtrar por categoria"></div>
+        </div>
+        <div class="catalog-grid" id="plant-grid" aria-live="polite"></div>
+        <div class="empty-state" id="empty-state" hidden><span>⌁</span><h3>Nenhuma raiz encontrada.</h3><p>Tente outro nome, espécie ou categoria.</p><button type="button" data-action="show-all">Limpar filtros</button></div>
+        <div class="catalog-footer"><span><i></i> Conteúdo educativo · não substitui orientação de saúde</span><button id="show-all-plants" class="text-link" type="button">Ver todas as entradas <span>↗</span></button></div>
+      </section>
+
+      <section class="guardians-callout">
+        <div><p class="eyebrow eyebrow-light"><i></i> Quem mantém a memória</p><h2>O saber tem<br /><em>muitas vozes.</em></h2><p>Não há catálogo sem escuta. As histórias são compartilhadas pelas mulheres da comunidade, com autoria, consentimento e o direito de escolher o que deve — ou não — ser publicado.</p><a class="outline-button" href="guardias.html">Conhecer as guardiãs <span>↗</span></a></div>
+        <div class="voice-strip"><article><b>01</b><span>◉</span><h3>Mulheres<br /><em>quilombolas</em></h3><p>Memória, território e cuidado transmitidos entre gerações.</p></article><article><b>02</b><span>♡</span><h3>Benzedeiras</h3><p>Palavra, gesto e presença como formas de acolhimento.</p></article><article class="clay"><b>03</b><span>⌇</span><h3>Quebradeiras<br /><em>de coco</em></h3><p>Conhecimento do tempo, do fruto e dos caminhos da mata.</p></article></div>
+      </section>
+
+      <section class="method-section" id="metodo">
+        <div class="method-head"><div><p class="eyebrow"><i></i> Como uma ficha nasce</p><h2>Do quintal<br />para a <em>tela.</em></h2></div><p>Um processo em quatro movimentos, feito com cuidado para que tecnologia e ciência ampliem — sem apagar — a origem de cada saber.</p></div>
+        <!-- METODOLOGIA: altere os quatro itens abaixo caso o processo escolar mude. -->
+        <div class="method-steps"><article><b>01</b><span>◖</span><h3>Escutar</h3><p>Entrevistas e relatos orais com as guardiãs do território.</p></article><article><b>02</b><span>⌕</span><h3>Identificar</h3><p>Nome popular, nome científico e conferência botânica.</p></article><article><b>03</b><span>▤</span><h3>Devolver</h3><p>Texto, áudio e imagem revisados por quem compartilhou.</p></article><article><b>04</b><span>▦</span><h3>Conectar</h3><p>QR Codes que levam do jardim da escola à história da planta.</p></article></div>
+        <p class="method-note">✦ Todo conteúdo público é autorizado e revisado. Este catálogo é educativo: não prescreve tratamentos.</p>
+      </section>
+
+      <section class="graziela-callout">
+        <div class="graziela-initial">G</div><div><p class="eyebrow"><i></i> Cientista homenageada</p><h2>Graziela<br /><em>Barroso.</em></h2><p>Botânica, naturalista e formadora de gerações. Sua trajetória nos lembra que nomear uma planta é também aprender a enxergar o mundo que ela habita.</p><a href="graziela.html" class="text-link">Ler sua trajetória <span>↗</span></a></div><blockquote>“Conhecer a flora é um primeiro gesto de cuidado com a vida.”<small>— inspiração para o laboratório de botânica</small></blockquote>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="footer-grid"><a class="brand brand-light" href="index.html"><img src="assets/guardias-mark.png" alt="" /><span><strong>Guardiãs</strong><em>dos Saberes</em></span></a><p>Uma enciclopédia viva de Bacabeira.<br />Feita de escuta, ciência e território.</p><nav><a href="#catalogo">Catálogo</a><a href="guardias.html">As guardiãs</a><a href="#sobre">O projeto</a></nav><a class="footer-top" href="#inicio">↑</a></div><div class="footer-bottom"><span>Projeto educativo · Bacabeira, Maranhão</span><span>ODS 5 · ODS 15</span><span>2026 · feito para a comunidade</span></div></footer>
+
+    <!-- MODAL DA PLANTA: o JavaScript preenche esta área ao abrir uma ficha. -->
+    <div class="modal-backdrop" id="plant-modal" hidden><section class="plant-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" type="button" data-close="plant-modal" aria-label="Fechar ficha">×</button><div class="plant-modal-image"><img id="modal-image" src="" alt="" /><div><span>FICHA BOTÂNICA</span><b>QR</b></div></div><div class="plant-modal-content" id="modal-content"></div></section></div>
+    <!-- MODAL DO QR CODE: gera um código para a ficha aberta. -->
+    <div class="modal-backdrop" id="qr-modal" hidden><section class="qr-modal" role="dialog" aria-modal="true" aria-labelledby="qr-title"><button class="modal-close" type="button" data-close="qr-modal" aria-label="Fechar QR Code">×</button><p class="eyebrow"><i></i> QR Code da ficha</p><h2 id="qr-title">Levar esta história<br /><em>para o jardim.</em></h2><p id="qr-description"></p><img id="qr-image" src="" alt="QR Code da planta" /><code id="qr-url"></code></section></div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
