@@ -248,7 +248,7 @@ const PLANTS = [
     description: "O manjericão é uma planta aromática originária da Ásia, famosa por seu perfume marcante e sabor fresco. Ele serve tanto como um tempero essencial na culinária quanto como um remédio natural na medicina caseira. Na Saúde (Propriedades Medicinais) Digestão: O chá das folhas alivia gases, cólicas, azia e má digestão. Imunidade e Inflamação: Rico em antioxidantes, ajuda a proteger o corpo contra doenças e reduz inflamações. Calmante Natural: Ajuda a reduzir o estresse, a ansiedade e melhora a qualidade do sono.  MODO DE PREPARO 1. Coloque 2 copos de água em uma panela. 2. Leve ao fogo e deixe ferver. 3. Em uma jarra, de preferência de vidro, coloque os galhos com as folhas. 4. Despeje a água quente sobre as folhas. 5. Abafe a preparação.",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: "assets/audio-maria-jesus.mp3",
     guardianName: "Maria de Jesus",
   },
 
@@ -315,72 +315,109 @@ const PLANTS = [
 const MODEL_PROFILES = [
   {
     id: "perfil-pescadora",
-    badge: "PERFIL MODELO",
+    badge: "PERFIL ",
     name: "Severina da Silva",
     role: "Pescadora",
     image: "assets/guardia1.jpeg",
     imageAlt: "Ilustração de uma mulher cuidando de plantas medicinais em vasos de barro",
     age: "66 anos",
     territory: "Periz de cima - Bacabeira",
-    bio: " Aprendeu os nomes das plantas com a mãe . Este texto de exemplo mostra como a trajetória real será contada, com as palavras escolhidas pela própria participante.",
+    bio: "Aprendeu os nomes das plantas com sua mãe, com os avós e com os mais velhos da comunidade, preservando o conhecimento tradicional e fortalecendo os laços culturais entre gerações.",
     practices: ["Reconhecimento e cultivo de plantas medicinais do quintal", "Transmissão dos saberes para filhos e netos", "Preparos caseiros tradicionais e memória do território"],
-    plants: ["Arruda", "Mastruz", "Capim-santo"],
-    quote: "Perfil modelo — aguardando a história autorizada de uma guardiã real da comunidade.",
-    audioSrc: null,
+    plants: ["Capim-Santo", "Capim-limão",],
+    quote: "Perfil  — história autorizada de uma guardiã real da comunidade.",
+    audioSrc: "assets/audio-severina.mp3",
     audioNote: "O relato oral foi publicado após entrevista e autorização",
   },
   {
-    id: "perfil-benzedeira",
-    badge: "PERFIL MODELO",
+    id: "perfil-lavradora",
+    badge: "PERFIL",
     name: "Maria de Jesus",
-    role: "PROFISSÃO",
+    role: "Agricultora",
     image: "assets/guardia2.jpeg",
     imageAlt: "Ilustração de uma mulher com as mãos unidas em gesto de benção",
     age: "84 anos",
     territory: "Casa de rezar — Bacabeira",
-    bio: "Perfil ilustrativo de uma benzedeira que recebe quem chega com uma palavra, um gesto e uma vela acesa. Aqui será registrada a forma como a guardiã real descreve sua própria prática, incluindo o que ela autorizar compartilhar e o que deve permanecer no espaço da intimidade.",
-    practices: ["Acolhimento pela escuta e pela palavra", "Benzimentos tradicionais e momentos de cuidado", "Memória das orações aprendidas na família"],
+    bio: "A guardiã compartilhou que, desde menina, cresceu cercada pelo saber das plantas medicinais. Foi sua mãe quem primeiro lhe mostrou os segredos da natureza, e os mais velhos da comunidade reforçaram esse aprendizado ao preparar chás e remédios caseiros. Entre histórias, cuidados e rituais, ela se criou nesse ambiente de sabedoria ancestral, onde cada folha e cada raiz carregam memórias e ensinamentos transmitidos de geração em geração.",
+    practices: ["Acolhimento pela escuta e pela palavra", "Conhecimentos tradicionais e momentos de cuidado", "Memória das orações aprendidas na família"],
     plants: ["manjericao",],
-    quote: "Perfil modelo — aguardando a história autorizada de uma benzedeira real da comunidade.",
-    audioSrc: null,
-    audioNote: "O relato oral será publicado após entrevista e autorização",
+    quote: "Perfil  — História autorizada de uma benzedeira real da comunidade.",
+    audioSrc: "assets/audio-maria-jesus.mp3",
+    audioNote: "O relato oral  publicado após entrevista e autorização",
   },
   
   
   {
     id: "perfil-quebradeira",
-    badge: "PERFIL MODELO",
+    badge: "PERFIL",
     name: "Dalva Gomes",
-    role: "PROFISSÃO",
+    role: "Agricultora",
     image: "assets/guardia3.jpeg",
-    imageAlt: "Ilustração de uma mulher segurando um coco babaçu entre coqueiros",
+    imageAlt: "imagem da guardião",
     age: "55 anos",
     territory: "Jatobá — Bacabeira",
-    bio: "Perfil ilustrativo de uma quebradeira que aprendeu o tempo do fruto, o caminho da mata e o jeito certo de quebrar o coco com as mulheres que vieram antes dela. Este espaço receberá a trajetória real, contada com as palavras e os limites que a participante escolher.",
-    practices: ["Leitura do tempo e dos ciclos da mata", "Quebra do coco e aproveitamento integral do fruto", "Sustentação das famílias e memória dos babaçuais"],
-    plants: ["Babaçu", "Plantas do entorno do coqueiral"],
-    quote: "Perfil modelo — aguardando a história autorizada de uma quebradeira real da comunidade.",
+    bio: "Desde a infância, aprendeu os nomes das plantas com sua mãe, com os avós e com os mais velhos da comunidade. Cada ensinamento recebido preservava o conhecimento tradicional e fortalecia os laços culturais entre gerações, mantendo viva a memória coletiva e a sabedoria ancestral que moldaram sua formação. Sempre gostou de aprender sobre as plantas e, com dedicação e amor, cultivava várias espécies em seu quintal, cuidando delas como parte essencial de sua vida.",
+    practices: ["Cultiva as plantas em seu quintal", "Sustentação das famílias e memória", "Acolhimento pela escuta e pela palavra"],
+    plants: ["Boldo", "Mastruz", "Babosa", "Cardo-Mariano", "Folha-Grossa"],
+    quote: "Perfil  —  História autorizada de uma quebradeira real da comunidade.",
     audioSrc: null,
-    audioNote: "O relato oral será publicado após entrevista e autorização",
+    audioNote: "O relato oral publicado após entrevista e autorização",
   },
 
 
   {
     id: "perfil-quebradeira",
-    badge: "PERFIL MODELO",
-    name: "NOME SOBRENOME",
-    role: "PROFISSÃO",
-    image: "assets/perfil-modelo-benzedeira.png",
+    badge: "PERFIL ",
+    name: "Maria da Soledade do Carmo Reis",
+    role: "Agricultora",
+    image: "assets/guardia4.jpeg",
     imageAlt: "Ilustração de uma mulher segurando um coco babaçu entre coqueiros",
-    age: "47 anos",
-    territory: "Babaçuais — Bacabeira",
-    bio: "Perfil ilustrativo de uma quebradeira que aprendeu o tempo do fruto, o caminho da mata e o jeito certo de quebrar o coco com as mulheres que vieram antes dela. Este espaço receberá a trajetória real, contada com as palavras e os limites que a participante escolher.",
-    practices: ["Leitura do tempo e dos ciclos da mata", "Quebra do coco e aproveitamento integral do fruto", "Sustentação das famílias e memória dos babaçuais"],
-    plants: ["Babaçu", "Plantas do entorno do coqueiral"],
-    quote: "Perfil modelo — aguardando a história autorizada de uma quebradeira real da comunidade.",
-    audioSrc: null,
-    audioNote: "O relato oral será publicado após entrevista e autorização",
+    age: "63 anos",
+    territory: "Comunidade — Bacabeira",
+    bio: "A guardiã compartilhou que, desde menina, cresceu cercada pelo saber das plantas medicinais. Foi sua mãe quem primeiro lhe mostrou os segredos da natureza, e os mais velhos da comunidade reforçaram esse aprendizado ao preparar chás e remédios caseiros. Entre histórias, cuidados e rituais, ela se criou nesse ambiente de sabedoria ancestral, onde cada folha e cada raiz carregam memórias e ensinamentos transmitidos de geração em geração.",
+    practices: ["Leitura do tempo e dos ciclos da mata", "Cultiva as plantas em seu quintal", "Sustentação das famílias e memória"],
+    plants: ["Pariri", "Mastruz", "Amora",  "Chanana"],
+    quote: "Perfil  —  História autorizada de uma guardiã real da comunidade.",
+    audioSrc: "assets/audio-maria-jesus.mp3",
+    audioNote: "O relato oral publicado após entrevista e autorização",
   },
+
+
+   {
+    id: "perfil-",
+    badge: "PERFIL ",
+    name: "Dona Augusta",
+    role: "Agricultora",
+    image: "assets/guardia5.jpeg",
+    imageAlt: "Ilustração de uma mulher segurando um coco babaçu entre coqueiros",
+    age: "86 anos",
+    territory: "Comunidade — Bacabeira",
+    bio: "A guardiã revelou conhecer inúmeras plantas medicinais, capazes de se transformar em chás que curam e aliviam doenças. Ela observa que muitos jovens já não carregam esse saber, mas sente alegria quando alguns se aproximam, curiosos, perguntando o nome de cada folha e raiz. Em cada encontro, ela floresce em felicidade, por ser guardiã do conhecimento ancestral e poder compartilhar, como quem semeia luz, a sabedoria que a natureza lhe confiou.",
+    practices: ["Leitura do tempo e dos ciclos da mata", "Cultiva as plantas em seu quintal", "Sustentação das famílias e memória"],
+    plants: ["Hortelã", "Mastruz", "Amora",  "Chanana"],
+    quote: "Perfil  —  História autorizada de uma guardiã real da comunidade.",
+    audioSrc: null,
+    audioNote: "O relato oral publicado após entrevista e autorização",
+  },
+
+
+  {
+    id: "perfil-",
+    badge: "PERFIL ",
+    name: "Maria do Rosário",
+    role: "Agricultora",
+    image: "assets/guardia6.jpeg",
+    imageAlt: "img-guardia",
+    age: "86 anos",
+    territory: "Comunidade — Bacabeira",
+    bio: "Na entrevista, a guardiã contou que conhece inúmeras plantas medicinais, revelando para que servem e como preparar cada uma delas. Aprendeu esse saber com sua mãe, que lhe transmitiu os segredos da natureza, e hoje carrega consigo a memória viva desse aprendizado. Ao final, destacou a importância de guardar e repassar esse conhecimento às futuras gerações, para que a sabedoria ancestral continue florescendo como raiz que nunca se perde.",
+    practices: ["Leitura do tempo e dos ciclos da mata", "Cultiva as plantas em seu quintal", "Sustentação das famílias e memória"],
+    plants: ["Hortelã"],
+    quote: "Perfil  —  História autorizada de uma guardiã real da comunidade.",
+    audioSrc: null,
+    audioNote: "O relato oral publicado após entrevista e autorização",
+  },
+
 
 
 
@@ -523,16 +560,65 @@ function openPlantFromUrl() {
 function renderProfiles() {
   const root = byId("profile-grid");
   if (!root) return;
+
   root.innerHTML = MODEL_PROFILES.map((profile, index) => `
     <article class="profile-card" id="${escapeHTML(profile.id)}">
-      <div class="profile-photo"><img src="${escapeHTML(profile.image)}" alt="${escapeHTML(profile.imageAlt)}" loading="lazy" /><span class="profile-badge">${escapeHTML(profile.badge)}</span><span class="profile-index">${String(index + 1).padStart(2, "0")}</span></div>
-      <div class="profile-body"><div class="profile-meta"><span>${escapeHTML(profile.role)}</span><span>${escapeHTML(profile.age)} · ${escapeHTML(profile.territory)}</span></div><h3>${escapeHTML(profile.name)}</h3><p class="profile-bio">${escapeHTML(profile.bio)}</p>
-      <div class="profile-block"><span>Práticas e saberes</span>${profile.practices.map((practice) => `<div class="practice">${escapeHTML(practice)}</div>`).join("")}</div>
-      <div class="profile-block"><span>Plantas relacionadas</span><div class="plants">${profile.plants.map((plant) => `<span>${escapeHTML(plant)}</span>`).join("")}</div></div>
-      <div class="profile-audio"><span>◖</span><div><b>Relato oral</b><span>${escapeHTML(profile.audioSrc ? "Áudio disponível nesta ficha" : profile.audioNote)}</span></div></div>
-      <p class="profile-quote"><em>${escapeHTML(profile.quote)}</em></p></div>
-    </article>`).join("");
+      <div class="profile-photo">
+        <img src="${escapeHTML(profile.image)}" alt="${escapeHTML(profile.imageAlt)}" loading="lazy" />
+        <span class="profile-badge">${escapeHTML(profile.badge)}</span>
+        <span class="profile-index">${String(index + 1).padStart(2, "0")}</span>
+      </div>
+
+      <div class="profile-body">
+        <div class="profile-meta">
+          <span>${escapeHTML(profile.role)}</span>
+          <span>${escapeHTML(profile.age)} · ${escapeHTML(profile.territory)}</span>
+        </div>
+
+        <h3>${escapeHTML(profile.name)}</h3>
+        <p class="profile-bio">${escapeHTML(profile.bio)}</p>
+
+        <div class="profile-block">
+          <span>Práticas e saberes</span>
+          ${profile.practices
+            .map((practice) => `<div class="practice">${escapeHTML(practice)}</div>`)
+            .join("")}
+        </div>
+
+        <div class="profile-block">
+          <span>Plantas relacionadas</span>
+          <div class="plants">
+            ${profile.plants
+              .map((plant) => `<span>${escapeHTML(plant)}</span>`)
+              .join("")}
+          </div>
+        </div>
+
+        ${profile.audioSrc
+          ? `<div class="profile-audio profile-audio--player">
+              <span aria-hidden="true">◖</span>
+              <div>
+                <b>Relato oral</b>
+                <span>Voz publicada com autorização.</span>
+                <audio class="profile-audio-player" controls preload="metadata" src="${escapeHTML(profile.audioSrc)}">
+                  Seu navegador não suporta a reprodução de áudio.
+                </audio>
+              </div>
+            </div>`
+          : `<div class="profile-audio">
+              <span aria-hidden="true">◖</span>
+              <div>
+                <b>Relato oral em preparação</b>
+                <span>${escapeHTML(profile.audioNote)}</span>
+              </div>
+            </div>`}
+
+        <p class="profile-quote"><em>${escapeHTML(profile.quote)}</em></p>
+      </div>
+    </article>
+  `).join("");
 }
+
 
 function renderTimeline() {
   const root = byId("timeline");
