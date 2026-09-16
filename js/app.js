@@ -15,78 +15,293 @@
    - guardianName: nome autorizado da guardiã; deixe null enquanto estiver pendente.
 ================================================================ */
 const PLANTS = [
+  
+
+
   {
-    id: "arruda",
-    name: "Arruda",
+    id: "babosa",
+    name: "Babosa",
     scientific: "Ruta graveolens",
-    family: "Rutaceae",
+    family: "Lamiaceae",
     category: "Aromáticas",
-    image: "assets/guardias-arruda.jpg",
-    description: "Uma planta de presença marcante nos quintais e nas memórias de cuidado compartilhadas entre gerações.",
-    status: "Ficha em revisão",
+    image: "assets/guardias-babosa.jpeg",
+    description: "A babosa, mundialmente conhecida pelo seu nome científico Aloe vera, se tornou uma das espécies medicinais e cosméticas mais populares do mundo devido ao gel viscoso e transparente contido no interior de suas folhas. Para que Serve? 1. Hidratação Profunda do CabeloO gel da babosa é rico em água, vitaminas (A, C, E, B1, B2, B3, B6), minerais e aminoácidos, servindo como um dos melhores tratamentos capilares naturais:Super-hidratação: Penetra profundamente na fibra capilar, devolvendo a umidade, o brilho e a maciez aos fios ressecados.Crescimento Saudável: Limpa e desobstrui os folículos capilares do couro cabeludo, auxiliando no combate à queda e estimulando o crescimento do cabelo.Combate à Caspa: Possui propriedades antifúngicas que ajudam a tratar a descamação e acalmam a coceira no couro cabeludo. 2. Cicatrização e Regeneração da PeleO gel acelera o processo de cura da derme devido às suas propriedades anti-inflamatórias, anestésicas e estimulantes de colágeno:Cicatrizante Potente: Serve para fechar e regenerar cortes, arranhões, feridas leves e picadas de insetos de forma rápida.Alívio de Queimaduras: É o remédio natural mais famoso para tratar queimaduras de sol ou térmicas leves, pois resfria a pele instantaneamente, reduz a dor e evita a descamação.Pós-barba e Depilação: Acalma a pele irritada, reduz a vermelhidão e previne infecções nos poros.",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: null,
-    guardianName: null,
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Dona Dalva",
   },
+
+
+   {
+    id: "cardo-mariano ",
+    name: "Cardo Mariano",
+    scientific: "Silybum marianum",
+    family: "Lamiaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-cardo- mariano.jpeg",
+    description: "O cardo-mariano, também chamado de cardo-de-leite, é uma planta medicinal famosa mundialmente por seu potente efeito protetor do fígado. Para que Serve? (Foco no Fígado e Vesícula) Proteção e Regeneração do Fígado: É amplamente utilizado como tratamento complementar para gordura no fígado (esteatose hepática), cirrose, hepatite e icterícia, ajudando a renovar as células hepáticas.  Proteção e Regeneração do Fígado: É amplamente utilizado como tratamento complementar para gordura no fígado (esteatose hepática), cirrose, hepatite e icterícia, ajudando a renovar as células hepáticas  Melhora da Digestão de Gorduras: Estimula a produção de bile, facilitando a digestão e aliviando a sensação de estômago pesado após refeições muito gordurosas. Efeito Desintoxicante: Auxilia o corpo a eliminar toxinas e ajuda a aliviar os sintomas da ressaca alcoólica Cardo Mariano - Serve para tratar gastrite MODO DE PREPARO (chá feito das sementes): 1-Separe as sementes que serão utilizadas. 2-Quebre as sementes. 3-Coloque-as em um recipiente com um pouco de água. 4-Leve ao fogo e deixe ferver. 5-Após a fervura, desligue o fogo. 6-Tampe o recipiente e deixe a preparação abafada.",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Dona Dalva",
+  },
+
+
+
   {
     id: "capim-santo",
     name: "Capim-santo",
     scientific: "Cymbopogon citratus",
     family: "Poaceae",
     category: "Aromáticas",
-    image: "assets/guardias-capim-santo.jpg",
-    description: "Folhas longas que perfumam a casa e revelam como cultivo, conversa e acolhimento caminham juntos.",
+    image: "assets/guardia-campim-limao.jpeg",
+    description: "O capim-santo ou capim-limão, também muito conhecido como capim-cidreira ou chá-de-estrada, é uma planta medicinal perene nativa da Ásia (Índia), mas totalmente integrada à cultura e aos quintais do Brasil. Ele se destaca tanto por suas propriedades terapêuticas quanto por sua importância histórica na culinária e subsistência. Para que Serve? 1. Poderoso Calmante NaturalO chá de capim-santo é rico em compostos que atuam diretamente no sistema nervoso central, servindo como um sedativo leve, relaxante muscular e ansiolítico natural. É um dos remédios caseiros mais utilizados para combater o estresse, a ansiedade, a agitação nervosa e a insônia, ajudando a induzir um sono tranquilo. 2. Outros Benefícios à SaúdeAção Digestiva: Alivia cólicas estomacais, gases e dores de estômago.Efeito Diurético: Ajuda a combater a retenção de líquidos e a desinchar o corpo.Alívio de Dores: Possui propriedades analgésicas que auxiliam na redução de dores de cabeça e dores musculares. MODO DE PREPARO 1. Coloque as folhas em 3 copos de água. 2. Leve ao fogo e ferva. 3. Acrescente um pouco de açúcar. 4. Retire do fogo. 5. Abafe imediatamente. 6. Tome ainda morno.",
     status: "Identificação conferida",
     statusTone: "green",
     uses: "Bem-estar — relato cultural",
     audioSrc: null,
-    guardianName: null,
+    guardianName: "Severina",
   },
+
+
   {
     id: "mastruz",
     name: "Mastruz",
     scientific: "Dysphania ambrosioides",
     family: "Amaranthaceae",
     category: "Nativas e cultivadas",
-    image: "assets/guardias-mastruz.jpg",
-    description: "Pequena, resistente e muito lembrada: uma entrada para investigar nomes, ambientes e histórias de quintal.",
+    image: "assets/guardias-matruz.jpeg",
+    description: "O mastruz, amplamente conhecido também como erva-de-santa-maria ou mentruz, é uma planta medicinal altamente valorizada no Brasil. Ela integra a listagem de plantas de interesse do Sistema Único de Saúde (RENISUS) devido à sua comprovada eficiência terapêutica. Para que Serve?  1. Alívio de Problemas EstomacaisO chá das folhas estimula a liberação de sucos gástricos, servindo para melhorar a má digestão. Ajuda a aliviar sintomas incômodos como azia, dores de estômago, gases e o inchaço abdominal após refeições pesadas.Nota tradicional: Também é historicamente um dos mais potentes vermífugos naturais contra parasitas intestinais 2. Cicatrização de Feridas e MachucadosO mastruz possui compostos antimicrobianos e antioxidantes que agem de forma tópica. Na forma de cataplasma (folhas amassadas aplicadas na pele), ele acelera a cicatrização de cortes, feridas abertas superficiais, arranhões e pequenas queimaduras, além de evitar infecções por fungos ou bactérias no ferimento. MODO DE PREPARO Para uso externo 1-Lave bem as folhas. 2-Amasse ou triture até formar uma pasta. 3-Aplique a preparação sobre a região desejada. 4-Deixe agir por alguns minutos e em seguida lave a região. Como bebida 1-Lave bem as folhas de mastruz. 2-Coloque-as no liquidificador com um pouco de água ou leite. 3-Bata até triturar bem. 4-Coe, se preferir, e consuma a bebida.",
     status: "Relato autorizado",
     statusTone: "clay",
     uses: "Memória e território — relato cultural",
     audioSrc: null,
-    guardianName: null,
+    guardianName:"Dona Dalva",
   },
 
   {
     id: "boldo",
-    name: "Boldo-Brasileiro",
+    name: "Boldo",
     scientific: "Ruta graveolens",
     family: "Lamiaceae",
     category: "Aromáticas",
-    image: "assets/guardias-boldo.jpg",
-    description: "O boldo-brasileiro é um arbusto perene, de crescimento rápido, que se destaca por suas características morfológicas bem marcantes.",
+    image: "assets/guardias-boldo.jpeg",
+    description: "O boldo (com destaque para o boldo-brasileiro ou boldo-da-terra, Plectranthus barbatus, e o boldo-do-chile, Peumus boldus) é uma das plantas medicinais mais populares do Brasil, amplamente utilizada para o alívio de distúrbios digestivos e hepáticos  Para que Serve? Melhora a Digestão: Estimula a produção e a liberação de bile pelo fígado, ajudando a digerir gorduras e combater a sensação de estômago pesados. Proteção do Fígado: Auxilia na recuperação e na proteção das células hepáticas, sendo muito indicado na medicina popular para o alívio de ressacas e excessos alimentares Alívio de Gases e Cólicas: Atua como um antiespasmódico leve que relaxa o trato gastrointestinal, diminuindo cólicas intestinais e flatulências. MODO DE PREPARO 1-Separe e lave as folhas de boldo. 2-Coloque as folhas em uma panela com água. 3-Leve ao fogo e deixe ferver por aproximadamente 5 minutos. 4-Desligue o fogo e espere amornar. 5-Coe e tome morno.",
     status: "Ficha em revisão",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
     audioSrc: "assets/U2 -With Or.mp3",
-    guardianName: null,
+    guardianName: "Dona Dalva",
   },
 
   {
-    id: "andiroba",
-    name: "Andiroba",
-    scientific: "Carapa guianensis",
-    family: "Meliaceae",
+    id: "alho-roxo",
+    name: "Alho roxo",
+    scientific: "Allium sativum",
+    family: "Allium sativum",
     category: "Aromáticas",
-    image: "assets/guardias-andiroba.jpg",
-    description: "A andiroba (Carapa guianensis) é uma árvore de grande porte nativa da região amazônica, famosa pela produção de um óleo amargo com propriedades terapêuticas. O uso mais conhecido da andiroba é o do seu óleo, amplamente utilizado pela medicina popular e pela indústria cosmética devido às suas propriedades anti-inflamatórias, antissépticas e cicatrizantes.",
+    image: "assets/guardias-alho-roxo.jpeg",
+    description: "O alho-roxo é uma variedade de alho amplamente cultivada no Brasil, famosa por sua casca de tom arroxeado e por possuir uma alta concentração de alicina, o composto ativo responsável por suas potentes propriedades medicinais e pelo sabor marcante. Para que Serve? 1. Combate a Gripes e ResfriadosO alho-roxo é rico em alicina, que possui forte ação antiviral e antibacteriana. O seu consumo ajuda a combater diretamente os vírus causadores da gripe e do resfriado comum, reduzindo o tempo de duração da doença e fortalecendo o sistema imunológico para evitar novas infecções. 2. Alívio de Infecções RespiratóriasAtua como um excelente expectorante natural, ajudando a fluidificar e eliminar o muco ou catarro preso nos pulmões e brônquios. É altamente eficaz para aliviar os sintomas de bronquite, asma, sinusite e tosses persistentes, além de reduzir a inflamação nas vias aéreas.3. Saúde Cardiovascular (Ação Adicional)Além do sistema respiratório, o alho-roxo serve para ajudar a controlar a pressão alta e reduzir o colesterol ruim (LDL), pois relaxa os vasos sanguíneos e melhora a circulação do sangue. MODO DE PREPARO 1. Ferva as folhas junto com as raízes em pouca água. 2. Acrescente 1 colher de açúcar. 3. Tampe o recipiente. 4. Deixe o chá descansar por algumas horas. 5. Tome 3 vezes ao dia.",
     status: "Ficha em revisão",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
     audioSrc: "assets/U2 -With Or.mp3",
-    guardianName: null,
+    guardianName: "Maria",
   },
+
+
+  {
+    id: "penicilina",
+    name: "Penicilina",
+    scientific: " Alternanthera brasiliana",
+    family: "Amaranthaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-penicilina.jpeg",
+    description: "A penicilina-vegetal também chamada de terramicina, erva-doril ou perpétua-do-mato, é uma planta medicinal rústica e nativa do Brasil. Ela recebe esses nomes populares porque seus usos tradicionais lembram o famoso antibiótico farmacêutico, embora não contenha a substância penicilina de laboratório. Para que Serve? 1. Ação Anti-inflamatória e AntimicrobianaInfecções Respiratórias: O chá de suas folhas ajuda a desinflamar o sistema respiratório, aliviando tosses, sintomas de gripes, resfriados e bronquite.Garganta e Boca: Utilizado em forma de gargarejo, ajuda a tratar amigdalite, dores de garganta, aftas e inflamações na gengiva. 2. Ação Analgésica (Alívio de Dores) Atua no sistema nervoso atenuando dores musculares, dores de cabeça, dores articulares e cólicas menstruais.3. Ação Cicatrizante e Protetora da PeleUsada externamente em compressas ou banhos, ela acelera a regeneração dos tecidos, ajudando a fechar feridas leves, cortes, arranhões e pequenas queimaduras, além de prevenir infecções na pele.",
+    status: "Ficha em revisão",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Nome",
+  },
+
+
+  {
+    id: "malva-do-reino",
+    name: "Malva do reino ",
+    scientific: " Plectranthus amboinicus.",
+    family: "Lamiaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-malva-reino.jpeg",
+    description: "A Plectranthus amboinicus (malva-do-reino) é uma planta herbácea perene famosa por seu aroma intenso (que lembra uma mistura de hortelã e orégano) e por suas folhas carnudas e aveludadas.  A malva-do-reino é uma das plantas medicinais mais utilizadas no Brasil, além de ter uso culinário. Suas principais aplicações são: 1. Saúde Respiratória (Uso Principal)Combate à tosse e rouquidão: É excelente para aliviar pigarros, tosse seca ou com catarro. É a base do famoso lambedor (xarope caseiro).Alívio de bronquite e asma: Suas propriedades broncodilatadoras ajudam a abrir as vias aéreas e facilitam a respiração.Dores de garganta: O gargarejo com o chá morno ajuda a desinflamar a garganta e a combater infecções na boca (como aftas). 2. Ação Digestiva e AntimicrobianaProblemas estomacais: Ajuda a aliviar gases, cólicas intestinais e má digestão.Efeito antibacteriano: Seus óleos essenciais (como o carvacrol) ajudam a combater fungos e bactérias.   MODO DE PREPARO - 1. Ferva algumas folhas em pouca água.2. Desligue o fogo. 3. Abafe o chá. 4. Com a folha ainda morna, esprema para retirar o sumo. 5. Tome durante o dia. Para lambedor: podem ser acrescentadas folhas de algodão, vick e hortelã.",
+    status: "Ficha em revisão",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Nome",
+  },
+
+
+  
+
+  {
+    id: "feijão-guandu",
+    name: "Feijão Guandu ",
+    scientific: "Cajanus cajan.",
+    family: " Fabaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-feijao-guandu.jpeg",
+    description: "O feijão-guandu também conhecido como andu, feijão-de-corda ou guando, é uma leguminosa muito resistente e nutritiva. Embora seus grãos sejam amplamente consumidos na alimentação, as suas folhas e brotos são utilizados na medicina tradicional para tratar distúrbios do trato digestivo. Para que Serve? 1. Combate à Diarreia e ao Vômito (Ação Adstringente)As folhas são ricas em taninos, substâncias que têm efeito adstringente no sistema digestivo. Elas servem para amarrar o intestino, diminuindo drasticamente as contrações intestinais e reduzindo a evacuação líquida (diarreia).Ajuda a acalmar os reflexos estomacais, auxiliando na interrupção dos episódios de vômito e náusea. 2. Alívio da Dor no Estômago e CólicasPossui propriedades anti-inflamatórias e antiespasmódicas. O chá relaxa os músculos do estômago e dos intestinos, servindo para aliviar as dores agudas, pontadas, queimações e cólicas causadas pela infecção. MODO DE PREPARO 1. Coloque as folhas em 1 litro de água. 2. Leve ao fogo.3. Deixe ferver bastante, até que metade da água evapore.4. Desligue o fogo. 5. Abafe",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Nome",
+  },
+
+
+  {
+    id: "cana-do-brejo",
+    name: "Cana do Brejo",
+    scientific: "Costus spicatus",
+    family: " Fabaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-cana-brejo.jpeg",
+    description: "A cana-do-brejo (cujo nome científico principal é Costus spicatus ou Costus scaber) é uma planta medicinal nativa do Brasil, muito comum em áreas úmidas, brejos e margens de rios. Ela é amplamente reconhecida na medicina tradicional devido às suas potentes propriedades terapêuticas para o sistema urinário e muscular.  Para que Serve? Como indicado popularmente, a cana-do-brejo destaca-se por sua forte ação diurética, anti-inflamatória e analgésica:1. Efeito Diurético e Saúde Urinária (Uso Principal)Combate Infecções: Ela estimula o funcionamento dos rins, aumentando a produção de urina. Isso ajuda a lavar o canal urinário, eliminando bactérias e auxiliando no tratamento de infecção urinária, cistite e uretrite.Prevenção de Pedras nos Rins: Por aumentar o fluxo urinário, ela ajuda a evitar a cristalização de minerais, auxiliando na eliminação de microcálculos (areia) nos rins.2. Alívio de Dores Reumáticas e Musculares (Ação Analgésica)O chá feito com suas folhas ou talos possui propriedades analgésicas que atuam diretamente no alívio de dores crônicas ou agudas. É muito utilizado para atenuar as dores do reumatismo, artrite, dores na coluna e fadiga muscular após esforços físicos intensos.",
+    status: "Ficha em revisão",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Nome",
+  },
+  
+
+   {
+    id: "pariri",
+    name: "Pariri",
+    scientific: "Cajanus cajan.",
+    family: " Fabaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-pariri.jpeg",
+    description: "O pariri (Arrabidaea chica ou Fridericia chica) é uma trepadeira arbustiva nativa da região amazônica e da Mata Atlântica. Ela é muito famosa na medicina popular porque suas folhas, após serem fervidas, soltam uma coloração vermelho-escura muito característica. Para que Serve? Combate à Anemia: O pariri serve para tratar e prevenir a anemia porque suas folhas são altamente ricas em ferro assimilável, estimulando a produção de glóbulos vermelhos e aumentando a hemoglobina no sangue MODO DE PREPARO  1. Coloque as folhas em 1 litro de água. 2. Ferva. 3. Retire do fogo. 4. Guarde em temperatura ambiente. 5. Tome o chá durante o dia",
+    status: "Ficha em revisão",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Nome",
+  },
+  
+
+  {
+    id: "erva-cidreira",
+    name: "Erva cidreira",
+    scientific: "Cajanus cajan.",
+    family: " Fabaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-erva.jpeg",
+    description: "A erva-cidreira (Melissa officinalis) é uma planta herbácea e medicinal de origem europeia, pertencente à mesma família da hortelã. Ela se destaca como um arbusto pequeno e ramificado, que cresce em formato de touceiras e atinge entre 30 e 80 centímetros de altura. Para que Serve? 1. Poderoso Calmante Natural Reduz a Ansiedade e o Estresse: Os compostos ativos da erva-cidreira (como o ácido rosmarínico) atuam no sistema nervoso central aumentando a sensação de relaxamento. Ela serve para acalmar a mente, diminuir a agitação e aliviar a tensão nervosa.Combate a Insônia: Tomado antes de dormir, o chá funciona como um sedativo suave, induzindo o sono de forma natural e melhorando a qualidade do descanso noturno.2. Controla a Pressão Arterial e o CoraçãoAção Hipotensora: A planta ajuda a promover o relaxamento dos vasos sanguíneos (vasodilatação). Esse efeito reduz a resistência das artérias, servindo para controlar e baixar a pressão alta de forma suave.Alivia Palpitações: Por sua ação calmante, ela é ideal para estabilizar os batimentos cardíacos e controlar a taquicardia ou palpitações causadas por crises de ansiedade, sustos ou estresse.",
+    status: "Ficha em revisão",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Nome",
+  },
+  
+  
+  {
+    id: "coentro-de-caboclo",
+    name: "Coentro-de-caboclo",
+    scientific: "Eryngium foetidum.",
+    family: "Apiaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-coentro.jpeg",
+    description: "O coentro-de-caboclo, também conhecido como chicória-do-pará, coentro-bravo, coentrão ou coentro-largo, é uma planta medicinal e condimentar nativa das Américas Tropicais. Ela é muito famosa na culinária da Região Norte e Nordeste do Brasil (essencial em pratos como o tacacá) e muito valorizada por suas propriedades terapêuticas cardiovasculares Para que Serve? 1. Auxílio no Controle da Pressão AltaAs folhas do coentro-de-caboclo possuem propriedades terapêuticas fundamentais para a hipertensão:Efeito Diurético: Estimula o funcionamento dos rins a eliminarem o excesso de líquidos e toxinas acumulados no corpo. Ao urinar mais, o volume de sangue circulante diminui, o que gera uma redução natural na pressão sobre as artérias Rico em Potássio: Ajuda o organismo a expelir o excesso de sódio pela urina. O potássio também atua promovendo o relaxamento e o tônus dos vasos sanguíneos (vasodilatação), facilitando a circulação do sangue. 2. Ação Anti-inflamatória e Analgésica (Outros Usos) Na medicina popular, o chá de suas folhas ou raízes é muito utilizado para acalmar dores musculares, dores de estômago, febres, tosses e cólicas. ",
+    status: "Ficha em revisão",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Nome",
+  },
+
+
+  {
+    id: "folha-grossa",
+    name: "Folha grossa/ Quitéria/ Folha da fortuna",
+    scientific: "Kalanchoe pinnata",
+    family: "Lamiaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-folha-grossa.jpeg",
+    description: "A folha-da-fortuna, também conhecida popularmente como folha-grossa, quitéria, saião ou coirama, é uma planta suculenta e medicinal nativa de Madagascar, mas que se espalhou pelo mundo e hoje é extremamente comum nos quintais e na medicina popular do Brasil. Para que Serve? (Ação Estomacal e Digestiva) Combate a Azia, Gastrite e Úlceras: O sumo ou o chá dessa planta ajuda a reduzir a acidez excessiva do estômago. Ela atua como um escudo, acalmando a queimação e auxiliando na regeneração e cicatrização da mucosa gástrica lesionada.Alívio de Dores e Espasmos: Serve para aliviar dores de estômago, pontadas e cólicas intestinais causadas por má digestão ou excesso de gases.Ação Antibacteriana: Ajuda a combater o crescimento de microrganismos nocivos no sistema digestivo, protegendo a flora intestinal.   Modo de preparo: 1-Separe as folhas que serão utilizadas.2-Coloque as folhas no liquidificador. 3-Acrescente um pouco de água. 4-Bata até triturar bem as folhas 5-Coe a preparação. 6-Beba ao longo do dia",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Dona Dalva",
+  },
+
+  {
+    id: "manjericão",
+    name: "Manjericão",
+    scientific: "Ocimum basilicum",
+    family: "Lamiaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-manjericao.jpg",
+    description: "O manjericão é uma planta aromática originária da Ásia, famosa por seu perfume marcante e sabor fresco. Ele serve tanto como um tempero essencial na culinária quanto como um remédio natural na medicina caseira. Na Saúde (Propriedades Medicinais) Digestão: O chá das folhas alivia gases, cólicas, azia e má digestão. Imunidade e Inflamação: Rico em antioxidantes, ajuda a proteger o corpo contra doenças e reduz inflamações. Calmante Natural: Ajuda a reduzir o estresse, a ansiedade e melhora a qualidade do sono.  MODO DE PREPARO 1. Coloque 2 copos de água em uma panela. 2. Leve ao fogo e deixe ferver. 3. Em uma jarra, de preferência de vidro, coloque os galhos com as folhas. 4. Despeje a água quente sobre as folhas. 5. Abafe a preparação.",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Maria de Jesus",
+  },
+
+  
+
+  {
+    id: "jardineira",
+    name: "Jardineira",
+    scientific: "Ruta graveolens",
+    family: "Lamiaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-jardineira.jpeg",
+    description: "O banho com as folhas da jardineira (Alpinia zerumbet) é um remédio caseiro muito tradicional na cultura popular para tratar crianças com gripe, sarampo ou catapora. Veja como ele atua em cada caso:Para Criança Gripada (Expectorante e Relaxante): O banho morno com as folhas serve como um excelente descongestionante natural. O vapor liberado pelas folhas aromáticas ajuda a fluidificar o catarro, desentupir o nariz, aliviar a tosse e relaxar o corpo da criança para que ela durma melhor.Para Sarampo e Catapora (Alívio Cutâneo): O banho serve para acalmar a coceira intensa, diminuir a irritação da pele e baixar o desconforto térmico causado pelas brotoejas e feridas. Suas propriedades analgésicas e anti-inflamatórias trazem um alívio imediato para o bem-estar do pequeno.",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Dona Dalva",
+  },
+
+
+  {
+    id: "goiabeira",
+    name: "Goiabeira",
+    scientific: "Ruta graveolens",
+    family: "Lamiaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-goiabeira.jpeg",
+    description: "O chá da folha da goiabeira (Psidium guajava) é um dos remédios caseiros mais eficientes e cientificamente comprovados para o tratamento da diarreia. Para que Serve o Chá da Folha?O uso principal e mais famoso deste chá é o combate à diarreia aguda, mas ele possui outras propriedades medicinais importantes: 1. Combate Eficaz à DiarreiaAs folhas da goiabeira contêm uma alta concentração de taninos (substâncias adstringentes) e compostos que atuam diretamente no intestino:Diminui os movimentos intestinais: Ele reduz as contrações do intestino (peristaltismo), diminuindo a frequência das idas ao banheiro.Ação antimicrobiana: Ajuda a combater as bactérias e microrganismos que frequentemente causam a infecção intestinal e a diarreia.Retenção de líquidos: Ajuda o intestino a absorver melhor a água, tornando as fezes menos líquidas. 2. Ação Antisséptica e CicatrizanteSaúde Bucal: O chá serve como enxaguante bucal para tratar aftas, gengivite, inflamações na garganta e combater o mau hálito.Uso na Pele: Pode ser usado topicamente para ajudar a cicatrizar feridas leves e acalmar coceiras. MODO DE PREPARO 1. Coloque as folhas em pouca água. 2. Leve ao fogo. 3. Cozinhe as folhas. 4. Tome o chá.",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Dona Dalva",
+  },
+
+
+  {
+    id: "embauba",
+    name: "Embaúba",
+    scientific: "Ruta graveolens",
+    family: "Lamiaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-embauba.jpeg",
+    description: "A embaúba (Cecropia hololeuca ou Cecropia peltata), também conhecida como árvore-da-preguiça, é uma planta medicinal nativa do Brasil muito utilizada na medicina tradicional pelas suas propriedades cardiovasculares, diuréticas e protetoras dos órgãos vitais. MODO DE PREPARO Opção 1 – folhas: 1. Coloque as folhas em pouca água. 2. Ferva. 3. Tome o chá. Opção 2 – raiz: 1. Corte a raiz da planta. 2. Coloque a raiz submersa em água em temperatura ambiente. 3. Deixe na água de um dia para o outro. 4. Tome durante o dia.",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/U2 -With Or.mp3",
+    guardianName: "Dona Dalva",
+  },
+
+
+
+
+
 
 
 ];
@@ -99,43 +314,63 @@ const PLANTS = [
 ================================================================ */
 const MODEL_PROFILES = [
   {
-    id: "perfil-quilombola",
+    id: "perfil-pescadora",
     badge: "PERFIL MODELO",
-    name: "Dona Maria do Dendê",
-    role: "Quilombola · conhecedora de quintais",
-    image: "assets/perfil-modelo-quilombola.png",
+    name: "Severina da Silva",
+    role: "Pescadora",
+    image: "assets/guardia1.jpeg",
     imageAlt: "Ilustração de uma mulher cuidando de plantas medicinais em vasos de barro",
-    age: "62 anos",
-    territory: "Quintal comunitário — Bacabeira",
-    bio: "Perfil ilustrativo de uma guardiã que aprendeu os nomes das plantas com as mulheres mais velhas da família e hoje cuida de um quintal onde cada vaso tem uma história. Este texto de exemplo mostra como a trajetória real será contada, com as palavras escolhidas pela própria participante.",
+    age: "66 anos",
+    territory: "Periz de cima - Bacabeira",
+    bio: " Aprendeu os nomes das plantas com a mãe . Este texto de exemplo mostra como a trajetória real será contada, com as palavras escolhidas pela própria participante.",
     practices: ["Reconhecimento e cultivo de plantas medicinais do quintal", "Transmissão dos saberes para filhos e netos", "Preparos caseiros tradicionais e memória do território"],
     plants: ["Arruda", "Mastruz", "Capim-santo"],
     quote: "Perfil modelo — aguardando a história autorizada de uma guardiã real da comunidade.",
     audioSrc: null,
-    audioNote: "O relato oral será publicado após entrevista e autorização",
+    audioNote: "O relato oral foi publicado após entrevista e autorização",
   },
   {
     id: "perfil-benzedeira",
     badge: "PERFIL MODELO",
-    name: "Dona Rosa da Palavra",
-    role: "Benzedeira · cuidado pela palavra",
-    image: "assets/perfil-modelo-benzedeira.png",
+    name: "Maria de Jesus",
+    role: "PROFISSÃO",
+    image: "assets/guardia2.jpeg",
     imageAlt: "Ilustração de uma mulher com as mãos unidas em gesto de benção",
-    age: "58 anos",
+    age: "84 anos",
     territory: "Casa de rezar — Bacabeira",
     bio: "Perfil ilustrativo de uma benzedeira que recebe quem chega com uma palavra, um gesto e uma vela acesa. Aqui será registrada a forma como a guardiã real descreve sua própria prática, incluindo o que ela autorizar compartilhar e o que deve permanecer no espaço da intimidade.",
     practices: ["Acolhimento pela escuta e pela palavra", "Benzimentos tradicionais e momentos de cuidado", "Memória das orações aprendidas na família"],
-    plants: ["Arruda", "Capim-santo"],
+    plants: ["manjericao",],
     quote: "Perfil modelo — aguardando a história autorizada de uma benzedeira real da comunidade.",
     audioSrc: null,
     audioNote: "O relato oral será publicado após entrevista e autorização",
   },
+  
+  
   {
     id: "perfil-quebradeira",
     badge: "PERFIL MODELO",
-    name: "Dona Zefa do Coco",
-    role: "Quebradeira de coco · saberes da mata",
-    image: "assets/perfil-modelo-quebradeira.png",
+    name: "Dalva Gomes",
+    role: "PROFISSÃO",
+    image: "assets/guardia3.jpeg",
+    imageAlt: "Ilustração de uma mulher segurando um coco babaçu entre coqueiros",
+    age: "55 anos",
+    territory: "Jatobá — Bacabeira",
+    bio: "Perfil ilustrativo de uma quebradeira que aprendeu o tempo do fruto, o caminho da mata e o jeito certo de quebrar o coco com as mulheres que vieram antes dela. Este espaço receberá a trajetória real, contada com as palavras e os limites que a participante escolher.",
+    practices: ["Leitura do tempo e dos ciclos da mata", "Quebra do coco e aproveitamento integral do fruto", "Sustentação das famílias e memória dos babaçuais"],
+    plants: ["Babaçu", "Plantas do entorno do coqueiral"],
+    quote: "Perfil modelo — aguardando a história autorizada de uma quebradeira real da comunidade.",
+    audioSrc: null,
+    audioNote: "O relato oral será publicado após entrevista e autorização",
+  },
+
+
+  {
+    id: "perfil-quebradeira",
+    badge: "PERFIL MODELO",
+    name: "NOME SOBRENOME",
+    role: "PROFISSÃO",
+    image: "assets/perfil-modelo-benzedeira.png",
     imageAlt: "Ilustração de uma mulher segurando um coco babaçu entre coqueiros",
     age: "47 anos",
     territory: "Babaçuais — Bacabeira",
@@ -146,6 +381,10 @@ const MODEL_PROFILES = [
     audioSrc: null,
     audioNote: "O relato oral será publicado após entrevista e autorização",
   },
+
+
+
+
 ];
 
 /* ==============================================================
