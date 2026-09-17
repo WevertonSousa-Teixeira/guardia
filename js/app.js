@@ -28,7 +28,7 @@ const PLANTS = [
     description: "A babosa, mundialmente conhecida pelo seu nome científico Aloe vera, se tornou uma das espécies medicinais e cosméticas mais populares do mundo devido ao gel viscoso e transparente contido no interior de suas folhas. Para que Serve? 1. Hidratação Profunda do CabeloO gel da babosa é rico em água, vitaminas (A, C, E, B1, B2, B3, B6), minerais e aminoácidos, servindo como um dos melhores tratamentos capilares naturais:Super-hidratação: Penetra profundamente na fibra capilar, devolvendo a umidade, o brilho e a maciez aos fios ressecados.Crescimento Saudável: Limpa e desobstrui os folículos capilares do couro cabeludo, auxiliando no combate à queda e estimulando o crescimento do cabelo.Combate à Caspa: Possui propriedades antifúngicas que ajudam a tratar a descamação e acalmam a coceira no couro cabeludo. 2. Cicatrização e Regeneração da PeleO gel acelera o processo de cura da derme devido às suas propriedades anti-inflamatórias, anestésicas e estimulantes de colágeno:Cicatrizante Potente: Serve para fechar e regenerar cortes, arranhões, feridas leves e picadas de insetos de forma rápida.Alívio de Queimaduras: É o remédio natural mais famoso para tratar queimaduras de sol ou térmicas leves, pois resfria a pele instantaneamente, reduz a dor e evita a descamação.Pós-barba e Depilação: Acalma a pele irritada, reduz a vermelhidão e previne infecções nos poros.",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Dona Dalva",
   },
 
@@ -43,7 +43,7 @@ const PLANTS = [
     description: "O cardo-mariano, também chamado de cardo-de-leite, é uma planta medicinal famosa mundialmente por seu potente efeito protetor do fígado. Para que Serve? (Foco no Fígado e Vesícula) Proteção e Regeneração do Fígado: É amplamente utilizado como tratamento complementar para gordura no fígado (esteatose hepática), cirrose, hepatite e icterícia, ajudando a renovar as células hepáticas.  Proteção e Regeneração do Fígado: É amplamente utilizado como tratamento complementar para gordura no fígado (esteatose hepática), cirrose, hepatite e icterícia, ajudando a renovar as células hepáticas  Melhora da Digestão de Gorduras: Estimula a produção de bile, facilitando a digestão e aliviando a sensação de estômago pesado após refeições muito gordurosas. Efeito Desintoxicante: Auxilia o corpo a eliminar toxinas e ajuda a aliviar os sintomas da ressaca alcoólica Cardo Mariano - Serve para tratar gastrite MODO DE PREPARO (chá feito das sementes): 1-Separe as sementes que serão utilizadas. 2-Quebre as sementes. 3-Coloque-as em um recipiente com um pouco de água. 4-Leve ao fogo e deixe ferver. 5-Após a fervura, desligue o fogo. 6-Tampe o recipiente e deixe a preparação abafada.",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Dona Dalva",
   },
 
@@ -60,7 +60,7 @@ const PLANTS = [
     status: "Identificação conferida",
     statusTone: "green",
     uses: "Bem-estar — relato cultural",
-    audioSrc: null,
+    audioSrc: "assets/audio-capim-limao.mp3",
     guardianName: "Severina",
   },
 
@@ -91,7 +91,7 @@ const PLANTS = [
     status: "Ficha em revisão",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Dona Dalva",
   },
 
@@ -106,7 +106,7 @@ const PLANTS = [
     status: "Ficha em revisão",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Maria",
   },
 
@@ -122,7 +122,7 @@ const PLANTS = [
     status: "Ficha em revisão",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Nome",
   },
 
@@ -138,7 +138,7 @@ const PLANTS = [
     status: "Ficha em revisão",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Nome",
   },
 
@@ -155,7 +155,7 @@ const PLANTS = [
     description: "O feijão-guandu também conhecido como andu, feijão-de-corda ou guando, é uma leguminosa muito resistente e nutritiva. Embora seus grãos sejam amplamente consumidos na alimentação, as suas folhas e brotos são utilizados na medicina tradicional para tratar distúrbios do trato digestivo. Para que Serve? 1. Combate à Diarreia e ao Vômito (Ação Adstringente)As folhas são ricas em taninos, substâncias que têm efeito adstringente no sistema digestivo. Elas servem para amarrar o intestino, diminuindo drasticamente as contrações intestinais e reduzindo a evacuação líquida (diarreia).Ajuda a acalmar os reflexos estomacais, auxiliando na interrupção dos episódios de vômito e náusea. 2. Alívio da Dor no Estômago e CólicasPossui propriedades anti-inflamatórias e antiespasmódicas. O chá relaxa os músculos do estômago e dos intestinos, servindo para aliviar as dores agudas, pontadas, queimações e cólicas causadas pela infecção. MODO DE PREPARO 1. Coloque as folhas em 1 litro de água. 2. Leve ao fogo.3. Deixe ferver bastante, até que metade da água evapore.4. Desligue o fogo. 5. Abafe",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Nome",
   },
 
@@ -171,7 +171,7 @@ const PLANTS = [
     status: "Ficha em revisão",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Nome",
   },
   
@@ -187,7 +187,7 @@ const PLANTS = [
     status: "Ficha em revisão",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Nome",
   },
   
@@ -203,7 +203,7 @@ const PLANTS = [
     status: "Ficha em revisão",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Nome",
   },
   
@@ -219,7 +219,7 @@ const PLANTS = [
     status: "Ficha em revisão",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Nome",
   },
 
@@ -234,7 +234,7 @@ const PLANTS = [
     description: "A folha-da-fortuna, também conhecida popularmente como folha-grossa, quitéria, saião ou coirama, é uma planta suculenta e medicinal nativa de Madagascar, mas que se espalhou pelo mundo e hoje é extremamente comum nos quintais e na medicina popular do Brasil. Para que Serve? (Ação Estomacal e Digestiva) Combate a Azia, Gastrite e Úlceras: O sumo ou o chá dessa planta ajuda a reduzir a acidez excessiva do estômago. Ela atua como um escudo, acalmando a queimação e auxiliando na regeneração e cicatrização da mucosa gástrica lesionada.Alívio de Dores e Espasmos: Serve para aliviar dores de estômago, pontadas e cólicas intestinais causadas por má digestão ou excesso de gases.Ação Antibacteriana: Ajuda a combater o crescimento de microrganismos nocivos no sistema digestivo, protegendo a flora intestinal.   Modo de preparo: 1-Separe as folhas que serão utilizadas.2-Coloque as folhas no liquidificador. 3-Acrescente um pouco de água. 4-Bata até triturar bem as folhas 5-Coe a preparação. 6-Beba ao longo do dia",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: "assets/audio-folha-grossa.mp3",
     guardianName: "Dona Dalva",
   },
 
@@ -248,7 +248,7 @@ const PLANTS = [
     description: "O manjericão é uma planta aromática originária da Ásia, famosa por seu perfume marcante e sabor fresco. Ele serve tanto como um tempero essencial na culinária quanto como um remédio natural na medicina caseira. Na Saúde (Propriedades Medicinais) Digestão: O chá das folhas alivia gases, cólicas, azia e má digestão. Imunidade e Inflamação: Rico em antioxidantes, ajuda a proteger o corpo contra doenças e reduz inflamações. Calmante Natural: Ajuda a reduzir o estresse, a ansiedade e melhora a qualidade do sono.  MODO DE PREPARO 1. Coloque 2 copos de água em uma panela. 2. Leve ao fogo e deixe ferver. 3. Em uma jarra, de preferência de vidro, coloque os galhos com as folhas. 4. Despeje a água quente sobre as folhas. 5. Abafe a preparação.",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/audio-maria-jesus.mp3",
+    audioSrc: "assets/audio-manjericao.mp3",
     guardianName: "Maria de Jesus",
   },
 
@@ -264,7 +264,7 @@ const PLANTS = [
     description: "O banho com as folhas da jardineira (Alpinia zerumbet) é um remédio caseiro muito tradicional na cultura popular para tratar crianças com gripe, sarampo ou catapora. Veja como ele atua em cada caso:Para Criança Gripada (Expectorante e Relaxante): O banho morno com as folhas serve como um excelente descongestionante natural. O vapor liberado pelas folhas aromáticas ajuda a fluidificar o catarro, desentupir o nariz, aliviar a tosse e relaxar o corpo da criança para que ela durma melhor.Para Sarampo e Catapora (Alívio Cutâneo): O banho serve para acalmar a coceira intensa, diminuir a irritação da pele e baixar o desconforto térmico causado pelas brotoejas e feridas. Suas propriedades analgésicas e anti-inflamatórias trazem um alívio imediato para o bem-estar do pequeno.",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Dona Dalva",
   },
 
@@ -279,7 +279,7 @@ const PLANTS = [
     description: "O chá da folha da goiabeira (Psidium guajava) é um dos remédios caseiros mais eficientes e cientificamente comprovados para o tratamento da diarreia. Para que Serve o Chá da Folha?O uso principal e mais famoso deste chá é o combate à diarreia aguda, mas ele possui outras propriedades medicinais importantes: 1. Combate Eficaz à DiarreiaAs folhas da goiabeira contêm uma alta concentração de taninos (substâncias adstringentes) e compostos que atuam diretamente no intestino:Diminui os movimentos intestinais: Ele reduz as contrações do intestino (peristaltismo), diminuindo a frequência das idas ao banheiro.Ação antimicrobiana: Ajuda a combater as bactérias e microrganismos que frequentemente causam a infecção intestinal e a diarreia.Retenção de líquidos: Ajuda o intestino a absorver melhor a água, tornando as fezes menos líquidas. 2. Ação Antisséptica e CicatrizanteSaúde Bucal: O chá serve como enxaguante bucal para tratar aftas, gengivite, inflamações na garganta e combater o mau hálito.Uso na Pele: Pode ser usado topicamente para ajudar a cicatrizar feridas leves e acalmar coceiras. MODO DE PREPARO 1. Coloque as folhas em pouca água. 2. Leve ao fogo. 3. Cozinhe as folhas. 4. Tome o chá.",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Dona Dalva",
   },
 
@@ -294,8 +294,24 @@ const PLANTS = [
     description: "A embaúba (Cecropia hololeuca ou Cecropia peltata), também conhecida como árvore-da-preguiça, é uma planta medicinal nativa do Brasil muito utilizada na medicina tradicional pelas suas propriedades cardiovasculares, diuréticas e protetoras dos órgãos vitais. MODO DE PREPARO Opção 1 – folhas: 1. Coloque as folhas em pouca água. 2. Ferva. 3. Tome o chá. Opção 2 – raiz: 1. Corte a raiz da planta. 2. Coloque a raiz submersa em água em temperatura ambiente. 3. Deixe na água de um dia para o outro. 4. Tome durante o dia.",
     statusTone: "warm",
     uses: "Proteção e cuidado — relato cultural",
-    audioSrc: "assets/U2 -With Or.mp3",
+    audioSrc: null,
     guardianName: "Dona Dalva",
+  },
+
+
+
+   {
+    id: "camomila",
+    name: "Camomila",
+    scientific: "Ocimum basilicum",
+    family: "Lamiaceae",
+    category: "Aromáticas",
+    image: "assets/guardias-camomila.jpg",
+    description: "A camomila (Matricaria chamomilla) é uma das plantas medicinais mais antigas e utilizadas do mundo. Reconhecida por suas pequenas flores brancas e amarelas com aroma doce e suave, ela é amplamente consumida na forma de chá, óleos essenciais e cosméticos. Para que serve (Principais indicações) Melhorar o sono e ansiedade: Atua no sistema nervoso central reduzindo a agitação, o estresse do dia a dia e combatendo a insônia.Aliviar problemas digestivos: Diminui espasmos no estômago e intestino, ajudando contra gases, má digestão, azia e cólicas em geral.Reduzir dores menstruais: Ajuda a relaxar os músculos do útero, amenizando o desconforto das cólicas.Cuidado com a pele e olhos: Na forma de compressas frias, serve para clarear olheiras, acalmar irritações na pele, queimaduras leves de sol e conjuntivite.",
+    statusTone: "warm",
+    uses: "Proteção e cuidado — relato cultural",
+    audioSrc: "assets/audio-manjericao.mp3",
+    guardianName: "Dona Augusta",
   },
 
 
@@ -337,7 +353,7 @@ const MODEL_PROFILES = [
     image: "assets/guardia2.jpeg",
     imageAlt: "Ilustração de uma mulher com as mãos unidas em gesto de benção",
     age: "84 anos",
-    territory: "Casa de rezar — Bacabeira",
+    territory: "Comunidade — Bacabeira",
     bio: "A guardiã compartilhou que, desde menina, cresceu cercada pelo saber das plantas medicinais. Foi sua mãe quem primeiro lhe mostrou os segredos da natureza, e os mais velhos da comunidade reforçaram esse aprendizado ao preparar chás e remédios caseiros. Entre histórias, cuidados e rituais, ela se criou nesse ambiente de sabedoria ancestral, onde cada folha e cada raiz carregam memórias e ensinamentos transmitidos de geração em geração.",
     practices: ["Acolhimento pela escuta e pela palavra", "Conhecimentos tradicionais e momentos de cuidado", "Memória das orações aprendidas na família"],
     plants: ["manjericao",],
@@ -378,7 +394,7 @@ const MODEL_PROFILES = [
     practices: ["Leitura do tempo e dos ciclos da mata", "Cultiva as plantas em seu quintal", "Sustentação das famílias e memória"],
     plants: ["Pariri", "Mastruz", "Amora",  "Chanana"],
     quote: "Perfil  —  História autorizada de uma guardiã real da comunidade.",
-    audioSrc: "assets/audio-maria-jesus.mp3",
+    audioSrc: "assets/audio-soledade.mp3",
     audioNote: "O relato oral publicado após entrevista e autorização",
   },
 
@@ -394,9 +410,9 @@ const MODEL_PROFILES = [
     territory: "Comunidade — Bacabeira",
     bio: "A guardiã revelou conhecer inúmeras plantas medicinais, capazes de se transformar em chás que curam e aliviam doenças. Ela observa que muitos jovens já não carregam esse saber, mas sente alegria quando alguns se aproximam, curiosos, perguntando o nome de cada folha e raiz. Em cada encontro, ela floresce em felicidade, por ser guardiã do conhecimento ancestral e poder compartilhar, como quem semeia luz, a sabedoria que a natureza lhe confiou.",
     practices: ["Leitura do tempo e dos ciclos da mata", "Cultiva as plantas em seu quintal", "Sustentação das famílias e memória"],
-    plants: ["Hortelã", "Mastruz", "Amora",  "Chanana"],
+    plants: ["Hortelã"],
     quote: "Perfil  —  História autorizada de uma guardiã real da comunidade.",
-    audioSrc: null,
+    audioSrc: "assets/audio-augusta.mp3",
     audioNote: "O relato oral publicado após entrevista e autorização",
   },
 
@@ -414,7 +430,7 @@ const MODEL_PROFILES = [
     practices: ["Leitura do tempo e dos ciclos da mata", "Cultiva as plantas em seu quintal", "Sustentação das famílias e memória"],
     plants: ["Hortelã"],
     quote: "Perfil  —  História autorizada de uma guardiã real da comunidade.",
-    audioSrc: null,
+    audioSrc: "assets/audio-maria-rosario.mp3",
     audioNote: "O relato oral publicado após entrevista e autorização",
   },
 
